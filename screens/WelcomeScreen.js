@@ -62,6 +62,7 @@ export default class WelcomeScreen extends React.Component {
         firebase.auth().signInWithEmailAndPassword(emailId, password)
         .then(()=>{
             this.props.navigation.navigate('DonateItems');
+            console.log('trying to go to the donate screen.')
         }
         )
         .catch(function(error) {
