@@ -1,6 +1,6 @@
 import {createStackNavigator} from 'react-navigation-stack'
 import DonateItem from '../screens/DonateScreen';
-import {DetailsScreen} from '../screens/DetailsScreen';
+import DetailsScreen from '../screens/DetailsScreen';
 
 export const StackNavigator = createStackNavigator({
     BookDonateList : {screen : DonateItem,
